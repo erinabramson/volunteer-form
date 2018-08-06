@@ -7,6 +7,15 @@ header, footer {
   color: #fff;
 }
 
+fieldset {
+  border-style: none;
+}
+
+hr {
+  border-color: #70ad55;
+  border-width: 1px;
+}
+
 .optional {
   color: #70ad55;
 }
