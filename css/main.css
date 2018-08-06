@@ -1,3 +1,18 @@
-body {
-  font-family: 'Noto Serif', serif;
+html {
+  font-family: "Noto Serif", serif;
+}
+
+header, footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.optional {
+  color: #70ad55;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  border: 0;
 }
