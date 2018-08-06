@@ -8,6 +8,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i" rel="stylesheet">
 </head>
 <body>
 
@@ -36,7 +37,7 @@
         <div class="unit xs-1 s-1 m-1-2 l-1-2">
           <label for="tsize">T-shirt size</label>
           <select id="tsize" name="tsize">
-            <optgroup label="Select a t-shirt size">
+            <option>Select a t-shirt size</option>
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
             <option>Fitted: M</option>
@@ -75,7 +76,7 @@
         <div class="unit xs-1 s-1 m-1-2 l-1-2">
           <label for="prov">Province</label>
           <select id="prov" name="prov">
-            <optgroup label="Select a province">
+            <option>Select a province</option>
             <option>Alberta</option>
             <option>British Columbia</option>
             <option>Manitoba</option>
@@ -154,21 +155,27 @@
       </div>
     </fieldset>
     <hr>
-    <legend>Do you have a valid driver's license?</legend>
-    <input id="yes-license" name="license" type="radio">
-    <label for="yes-license">Yes</label>
-    <input id="no-license" name="license" type="radio">
-    <label for="no-license">No</label>
-    <legend>Do you have a pick-up truck you'd be willing to use?</legend>
-    <input id="yes-truck" name="truck" type="radio">
-    <label for="yes-truck">Yes</label>
-    <input id="no-truck" name="truck" type="radio">
-    <label for="no-truck">No</label>
-    <legend>Do you have up-to-date first-aid certification?</legend>
-    <input id="yes-first-aid" name="first-aid" type="radio">
-    <label for="yes-first-aid">Yes</label>
-    <input id="no-first-aid" name="no-first-aid" type="radio">
-    <label for="no-first-aid">No</label>
+    <fieldset>
+      <legend>Do you have a valid driver's license?</legend>
+      <input id="yes-license" name="license" type="radio">
+      <label for="yes-license">Yes</label>
+      <input id="no-license" name="license" type="radio">
+      <label for="no-license">No</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you have a pick-up truck you'd be willing to use?</legend>
+      <input id="yes-truck" name="truck" type="radio">
+      <label for="yes-truck">Yes</label>
+      <input id="no-truck" name="truck" type="radio">
+      <label for="no-truck">No</label>
+    </fieldset>
+    <fieldset>
+      <legend>Do you have up-to-date first-aid certification?</legend>
+      <input id="yes-first-aid" name="first-aid" type="radio">
+      <label for="yes-first-aid">Yes</label>
+      <input id="no-first-aid" name="first-aid" type="radio">
+      <label for="no-first-aid">No</label>
+    </fieldset>
     <hr>
 
     <legend>Please let us know any comments or questions you may have. (optional)</legend>
